@@ -16,7 +16,7 @@ namespace holamundo{
 }
 ```
 ## ejemplo 1
-Leer 2 calificaciones sacar el promedio e indicar si el alumnos aprueba o no.
+Leer 2 calificaciones sacar el promedio e indicar si el alumno aprueba o no.
 
 Solución: 
 ```cs
@@ -99,11 +99,36 @@ para buscar una subcadena dentro de una cadena:
 
 ```cs
 string s3="una ves que termine, son las 10";
-int i=s3.IndexOf(",");
-Console.WriteLine("en la cadena '{0}' , esta en la posicion: {1}",s3,i); 
+int i=s3.IndexOf(","); //busca la coma
+Console.WriteLine("en la cadena '{0}' la coma esta en la posicion: {1}",s3,i); 
 //para obtener una subcadena, pruebe:
 Console.WriteLine("subacdena hasta la ,: {0}",s3.Substring(0,i));
 //para obtener la longitud de una cadena
 string str = "abcdefg";
 Console.WriteLine("la longitud de '{0}' is {1}", str, str.Length);
+```
+Ejemplo: indicar si el nombre de una persona tiene apellido perez.
+```cs
+using System;
+namespace holamundo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Your program starts here...
+            Console.Write("De su nombre completo: ");
+            string s = Console.ReadLine();
+            if (s.IndexOf("perez") >= 0)
+            {
+                Console.WriteLine("Tiene el apellido perez");
+            }
+            else
+            {
+                Console.WriteLine("No tiene el apellido perez");
+            }
+            Console.ReadKey();
+        }
+    }
+}
 ```

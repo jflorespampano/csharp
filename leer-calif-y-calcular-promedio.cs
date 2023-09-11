@@ -20,7 +20,7 @@ namespace leer_calif_calc_promedio
 			if (promedio>=70){
 				Console.WriteLine("aprueba con {0}",promedio);
 			}else{
-			Console.WriteLine("reprueba con {0}",promedio);
+				Console.WriteLine("reprueba con {0}",promedio);
 			}
 			
 			Console.Write("Press any key to continue . . . ");
