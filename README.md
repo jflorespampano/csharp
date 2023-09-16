@@ -132,3 +132,23 @@ namespace holamundo
     }
 }
 ```
+
+## dotnet
+NET Core es una plataforma de desarrollo de aplicaciones multiplataforma de código abierto, que permite a los desarrolladores crear aplicaciones de alta calidad para diferentes plataformas, incluyendo Windows, MacOS y Linux.
+
+[documentacion en español](https://learn.microsoft.com/es-es/dotnet/core/get-started)
+
+[descargar plataforma](https://dotnet.microsoft.com/es-es/download/dotnet)
+
+[hola mundo en core net](https://learn.microsoft.com/es-es/dotnet/core/get-started)
+
+## VSCode isntalar extension 
+Para trabajar en el editor VSCode instalar la extensión C# de Microsoft, esta pregunta por instalar el corenet si no lo ha instalado.
+
+### construir proyecto en corenet
+* Crear una carpeta de proyecto
+* Ir a esa carpeta `cd carpeta`
+* Ejecutar `dotnet new console --framework net7.0`
+
+### ejecutar proyecto
+`dotnet run`
