@@ -1,0 +1,15 @@
+C:\trabajops\csharp\github.com\jflorespampano\prg-graf-1\helloworld-core\bin\Debug\net7.0\helloworld-core.exe
+C:\trabajops\csharp\github.com\jflorespampano\prg-graf-1\helloworld-core\bin\Debug\net7.0\helloworld-core.deps.json
+C:\trabajops\csharp\github.com\jflorespampano\prg-graf-1\helloworld-core\bin\Debug\net7.0\helloworld-core.runtimeconfig.json
+C:\trabajops\csharp\github.com\jflorespampano\prg-graf-1\helloworld-core\bin\Debug\net7.0\helloworld-core.dll
+C:\trabajops\csharp\github.com\jflorespampano\prg-graf-1\helloworld-core\bin\Debug\net7.0\helloworld-core.pdb
+C:\trabajops\csharp\github.com\jflorespampano\prg-graf-1\helloworld-core\obj\Debug\net7.0\helloworld-core.csproj.AssemblyReference.cache
+C:\trabajops\csharp\github.com\jflorespampano\prg-graf-1\helloworld-core\obj\Debug\net7.0\helloworld-core.GeneratedMSBuildEditorConfig.editorconfig
+C:\trabajops\csharp\github.com\jflorespampano\prg-graf-1\helloworld-core\obj\Debug\net7.0\helloworld-core.AssemblyInfoInputs.cache
+C:\trabajops\csharp\github.com\jflorespampano\prg-graf-1\helloworld-core\obj\Debug\net7.0\helloworld-core.AssemblyInfo.cs
+C:\trabajops\csharp\github.com\jflorespampano\prg-graf-1\helloworld-core\obj\Debug\net7.0\helloworld-core.csproj.CoreCompileInputs.cache
+C:\trabajops\csharp\github.com\jflorespampano\prg-graf-1\helloworld-core\obj\Debug\net7.0\helloworld-core.dll
+C:\trabajops\csharp\github.com\jflorespampano\prg-graf-1\helloworld-core\obj\Debug\net7.0\refint\helloworld-core.dll
+C:\trabajops\csharp\github.com\jflorespampano\prg-graf-1\helloworld-core\obj\Debug\net7.0\helloworld-core.pdb
+C:\trabajops\csharp\github.com\jflorespampano\prg-graf-1\helloworld-core\obj\Debug\net7.0\helloworld-core.genruntimeconfig.cache
+C:\trabajops\csharp\github.com\jflorespampano\prg-graf-1\helloworld-core\obj\Debug\net7.0\ref\helloworld-core.dll

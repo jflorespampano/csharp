@@ -132,23 +132,52 @@ namespace holamundo
     }
 }
 ```
+## Framework Net de Windows
+
+Para trabajar con Microsoft .NET que vine preinstalado en computadoras con SO Windows, puede agregar al path la direccion del compilador de c#, en micaso esta en la ruta:
+
+`C:\Windows\Microsoft.NET\Framework64\v4.0.30319`
+
+En la linea de mando ejecute:  `csc holamundo.cs`
+
+Si el programa esta en varios archivos compile así:
+`csc /out:ejecutable.exe holamundo.cs persona.cs`
+
+[Vea aquí las opciones avanzadas del compilador de c#](https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/compiler-options/miscellaneous)
 
 ## dotnet
-NET Core es una plataforma de desarrollo de aplicaciones multiplataforma de código abierto, que permite a los desarrolladores crear aplicaciones de alta calidad para diferentes plataformas, incluyendo Windows, MacOS y Linux.
+NET Core es una plataforma de desarrollo de aplicaciones multiplataforma de código abierto, que permite a los desarrolladores crear aplicaciones de alta calidad para diferentes plataformas, incluyendo Windows, MacOS y Linux. Puede descargarlo desde aquí: [core net](https://dotnet.microsoft.com/es-es/download)
 
-[documentacion en español](https://learn.microsoft.com/es-es/dotnet/core/get-started)
 
-[descargar plataforma](https://dotnet.microsoft.com/es-es/download/dotnet)
-
-[hola mundo en core net](https://learn.microsoft.com/es-es/dotnet/core/get-started)
-
-## VSCode isntalar extension 
+## Core net y VSCode.
+### instalar extension 
 Para trabajar en el editor VSCode instalar la extensión C# de Microsoft, esta pregunta por instalar el corenet si no lo ha instalado.
 
 ### construir proyecto en corenet
 * Crear una carpeta de proyecto
 * Ir a esa carpeta `cd carpeta`
 * Ejecutar `dotnet new console --framework net7.0`
+* Ejecutar proyecto `dotnet run`
 
-### ejecutar proyecto
-`dotnet run`
+Otra forma es ejecutar el comando:
+
+```bs
+dotnet new console -o sample1
+cd sample1
+dotnet run
+
+```
+
+En core net puede escribir el código principal de la aplicación sin función main, esto se le llama instrucciones de nivel superior, vea mas sobre esto en:
+
+[instrucciones de nivel superior](https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/program-structure/top-level-statements)
+
+## referencias
+
+[introduccion a core net](https://learn.microsoft.com/es-es/dotnet/core/introduction)
+
+[documentacion en español](https://learn.microsoft.com/es-es/dotnet/core/get-started)
+
+[descargar plataforma](https://dotnet.microsoft.com/es-es/download/dotnet)
+
+[hola mundo en core net](https://learn.microsoft.com/es-es/dotnet/core/get-started)

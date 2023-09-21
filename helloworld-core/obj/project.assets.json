@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\trabajops\\csharp\\github.com\\jflorespampano\\prg-graf-1\\clasesAlumnoCoreNet\\clases.csproj",
-      "projectName": "clases",
-      "projectPath": "C:\\trabajops\\csharp\\github.com\\jflorespampano\\prg-graf-1\\clasesAlumnoCoreNet\\clases.csproj",
+      "projectUniqueName": "C:\\trabajops\\csharp\\github.com\\jflorespampano\\prg-graf-1\\helloworld-core\\helloworld-core.csproj",
+      "projectName": "helloworld-core",
+      "projectPath": "C:\\trabajops\\csharp\\github.com\\jflorespampano\\prg-graf-1\\helloworld-core\\helloworld-core.csproj",
       "packagesPath": "C:\\Users\\Docente\\.nuget\\packages\\",
-      "outputPath": "C:\\trabajops\\csharp\\github.com\\jflorespampano\\prg-graf-1\\clasesAlumnoCoreNet\\obj\\",
+      "outputPath": "C:\\trabajops\\csharp\\github.com\\jflorespampano\\prg-graf-1\\helloworld-core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Docente\\AppData\\Roaming\\NuGet\\NuGet.Config"
