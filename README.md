@@ -146,7 +146,9 @@ Si el programa esta en varios archivos compile así:
 [Vea aquí las opciones avanzadas del compilador de c#](https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/compiler-options/miscellaneous)
 
 ## dotnet
-NET Core es una plataforma de desarrollo de aplicaciones multiplataforma de código abierto, que permite a los desarrolladores crear aplicaciones de alta calidad para diferentes plataformas, incluyendo Windows, MacOS y Linux. Puede descargarlo desde aquí: [core net](https://dotnet.microsoft.com/es-es/download)
+NET Core es una plataforma de desarrollo de aplicaciones multiplataforma de código abierto, que permite a los desarrolladores crear aplicaciones de alta calidad para diferentes plataformas, incluyendo Windows, MacOS y Linux. Puede descargarlo desde aquí: 
+
+[core net](https://dotnet.microsoft.com/es-es/download)
 
 
 ## Core net y VSCode.
@@ -168,7 +170,7 @@ dotnet run
 
 ```
 
-En core net puede escribir el código principal de la aplicación sin función main, esto se le llama instrucciones de nivel superior, vea mas sobre esto en:
+En core net puede escribir el código principal de la aplicación sin función main, esto se le llama instrucciones de nivel superior, lo probe desde c# framework net 7, vea mas sobre esto en:
 
 [instrucciones de nivel superior](https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/program-structure/top-level-statements)
 
@@ -181,3 +183,5 @@ En core net puede escribir el código principal de la aplicación sin función m
 [descargar plataforma](https://dotnet.microsoft.com/es-es/download/dotnet)
 
 [hola mundo en core net](https://learn.microsoft.com/es-es/dotnet/core/get-started)
+
+[mas sobre versiones de c#](https://learn.microsoft.com/es-es/dotnet/csharp/whats-new/csharp-10)

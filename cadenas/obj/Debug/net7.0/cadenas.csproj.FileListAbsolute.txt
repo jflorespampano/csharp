@@ -1,0 +1,15 @@
+C:\trabajo\jflorespampano@gmail.com\csharp\cadenas\bin\Debug\net7.0\cadenas.exe
+C:\trabajo\jflorespampano@gmail.com\csharp\cadenas\bin\Debug\net7.0\cadenas.deps.json
+C:\trabajo\jflorespampano@gmail.com\csharp\cadenas\bin\Debug\net7.0\cadenas.runtimeconfig.json
+C:\trabajo\jflorespampano@gmail.com\csharp\cadenas\bin\Debug\net7.0\cadenas.dll
+C:\trabajo\jflorespampano@gmail.com\csharp\cadenas\bin\Debug\net7.0\cadenas.pdb
+C:\trabajo\jflorespampano@gmail.com\csharp\cadenas\obj\Debug\net7.0\cadenas.csproj.AssemblyReference.cache
+C:\trabajo\jflorespampano@gmail.com\csharp\cadenas\obj\Debug\net7.0\cadenas.GeneratedMSBuildEditorConfig.editorconfig
+C:\trabajo\jflorespampano@gmail.com\csharp\cadenas\obj\Debug\net7.0\cadenas.AssemblyInfoInputs.cache
+C:\trabajo\jflorespampano@gmail.com\csharp\cadenas\obj\Debug\net7.0\cadenas.AssemblyInfo.cs
+C:\trabajo\jflorespampano@gmail.com\csharp\cadenas\obj\Debug\net7.0\cadenas.csproj.CoreCompileInputs.cache
+C:\trabajo\jflorespampano@gmail.com\csharp\cadenas\obj\Debug\net7.0\cadenas.dll
+C:\trabajo\jflorespampano@gmail.com\csharp\cadenas\obj\Debug\net7.0\refint\cadenas.dll
+C:\trabajo\jflorespampano@gmail.com\csharp\cadenas\obj\Debug\net7.0\cadenas.pdb
+C:\trabajo\jflorespampano@gmail.com\csharp\cadenas\obj\Debug\net7.0\cadenas.genruntimeconfig.cache
+C:\trabajo\jflorespampano@gmail.com\csharp\cadenas\obj\Debug\net7.0\ref\cadenas.dll
