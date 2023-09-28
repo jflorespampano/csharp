@@ -12,7 +12,7 @@ C# es un lenguaje de Microsoft, tiene 2 versiones Framework diseñado para ejecu
 * Core Net 6.0 tiene la version c# 10
 * Core Net 7.0 tiene la version c# 11
 
-# Ejemplos de programas en C# para el curso de Programación Gráfica I
+## Ejemplos de programas en C# para el curso de Programación Gráfica I
 
 Los siguientes programas fueron probados con el framework 4.0 de Windows.
 
