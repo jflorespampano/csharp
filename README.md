@@ -149,12 +149,38 @@ namespace holamundo
     }
 }
 ```
+## casting
 
+```cs
+using System;
+class A{
+    public static void Main(){
+        int a=5;
+        float x=5.8f;
+        double y=9.7;
+        a=(int)x;
+        Console.WriteLine("{0:E}, {0:N}, {0:C}, {0,10:C}",y+a);
+        Console.WriteLine("{0,-15:E}, {0,-15:N}, {0,-15:C}, ",y+a);
+        Console.WriteLine("{0,15:E}, {0,15:N}, {0,15:C}, ",y+a);
+    }
+}
+```
+## formateo de salida
+```cs
+double y=9.7;
+//E salida en notacion científica, N notacion numerica
+//C notacion moneda
+Console.WriteLine("{0:E}, {0:N}, {0:C}, {0,10:C}",y);
+//-15, 15 campo de 15 espacion alineado a la izquierda
+//15 campo de 15 espacios alineado a la derecha
+Console.WriteLine("{0,-15:E}, {0,-15:N}, {0,-15:C}, ",y);
+Console.WriteLine("{0,15:E}, {0,15:N}, {0,15:C}, ",y);
+```
 ## estrcuturas
 ```cs
 using System;
 namespace Miespacio{
-    public class Principaal{
+    public class Principal{
         struct Auto{
             public string marca;
             public int modelo;
@@ -176,14 +202,28 @@ namespace Miespacio{
 ```
 
 ## arreglos
-Arreglo unidimensional
+
+```cs
+int[] vector=new int[20]; 
+```
+Inicializar arreglos:
+```cs
+int[] a = new int[] {0, 2, 4, 6, 8};
+```
+Una forma abreviada de hacer esto es la siguiente:
+```cs
+int[] a = {0, 2, 4, 6, 8};
+```
+Ejemplo uso de arreglo unidimensional
 
 ```cs
 using System;
 namespace Miespacio{
     public class A{
         public static void Main(){
-            int[] edades={34,23,27,45};
+            int[] edades=new int[]{34,23,27,45};
+            //se puede usar la sintaxis corta:
+            //int[] edades={34,23,27,45};
             string[] nombres=new string [4];
             nombres[0]="juan";
             nombres[1]="ana";
@@ -195,8 +235,57 @@ namespace Miespacio{
     }
 }
 ```
+Los identificadores de arreglo indican la **refrencia** al arreglo, de manera que copiar arreglos copia la referencia no el arreglo y al enviar como parámetro, se envia la referencia y no el arreglo, para copiar arreglos se usa Clone.
 
-Arreglo de estructras
+```cs
+int[] v=new int[]{3,4,5,6,7,9};
+int[] w=(int[])v.Clone();
+//ahora w tiene una copia de arrego v
+```
+
+## Arreglos de estructuras
+```cs
+struct Persona
+{
+    public string nombre;
+    public int edad;
+}
+//...
+Persona[] personas = new Persona[3];
+//podemos acceder a los campos de cada elemento del arreglo
+personas[0].nombre="juan";
+personas[0].edad=21;
+personas[1].nombre="ana";
+personas[1].edad=24;
+//o asignar una estructura  completa a un elemento del arreglo
+personas[2] = new Persona { nombre = "kori", edad = 19 };
+
+```
+Recorrer arreglo de estrcuturas
+```cs
+    struct Persona
+    {
+        public string nombre;
+        public int edad;
+    }
+    //...
+    Persona[] ps={
+        new Persona { nombre = "juan", edad = 10 },
+        new Persona { nombre = "luis", edad = 12 },
+        new Persona { nombre = "paco", edad = 11 },
+        new Persona { nombre = "ana", edad = 34 },
+        new Persona { nombre = "kori", edad = 19 }
+    };
+    //...
+    foreach (var p in ps)
+    {
+        Console.WriteLine("{0}\tedad: {1}", p.nombre, p.edad);
+    }
+
+```
+
+Ejemplo:
+
 ```cs
 //ejemplo de uso de estructuas
 using System;
@@ -242,6 +331,7 @@ namespace nuevo
     }
 }
 ```
+
 ## Framework Net de Windows <a name="framework"></a>
 
 Para trabajar con Microsoft .NET que vine preinstalado en computadoras con SO Windows, puede agregar al path la direccion del compilador de c#, en micaso esta en la ruta:
@@ -265,7 +355,7 @@ NET Core es una plataforma de desarrollo de aplicaciones multiplataforma de cód
 ### instalar extension 
 Para trabajar en el editor VSCode instalar la extensión C# de Microsoft, esta pregunta por instalar el corenet si no lo ha instalado.
 
-### construir proyecto en corenet
+### construir proyecto en core net
 Para ver las versiones de net instaladas:
 `bs
 dotnet --list-sdks
